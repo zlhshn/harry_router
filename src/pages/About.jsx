@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="about-bgImg-container">
-        <nav className="nav">
+        {/* <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
               <Link to="/" className="nav__link nav__link--active">
@@ -27,7 +27,7 @@ const About = () => {
               </Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         <div className="about__bio-image">
           <h2>BIO</h2>
           <p>

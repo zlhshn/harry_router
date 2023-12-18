@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="home-bgImg-container">
     {/* <!-- HOME NAV --> */}
-
+{/* 
     <nav className="nav">
     <ul className="nav__list">
       <li className="nav__item">
@@ -30,7 +30,7 @@ const Home = () => {
         </Link>
       </li>
     </ul>
-  </nav>
+  </nav> */}
 
     {/* <!-- HOME MAIN --> */}
     <main className="home">
