@@ -3,47 +3,15 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div className="about-bgImg-container">
-        {/* <nav className="nav">
-          <ul className="nav__list">
-            <li className="nav__item">
-              <Link to="/" className="nav__link nav__link--active">
-                Home
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/about" className="nav__link">
-                About Me
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/project" className="nav__link">
-                My Projects
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link to="/contact" className="nav__link">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav> */}
+      <div >
+      
         <div className="about__bio-image">
           <h2>BIO</h2>
           <p>
-            Wednesday Addams is a fictional character from the Addams Family
-            multimedia franchise created by American cartoonist Charles Addams.
-            She is typically portrayed as a morbid and emotionally reserved
-            child that is fascinated by the macabre, often identified by her
-            pale skin and black pigtails. Wednesday has been portrayed by
-            several actresses in various films and television series, including
-            Lisa Loring in the television series The Addams Family (1964),
-            Christina Ricci in the feature films The Addams Family (1991) and
-            Addams Family Values (1993), and Jenna Ortega in the streaming
-            television series Wednesday (2022).
+          Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people)..
           </p>
         </div>
-      </div>
+      
 
       {/* <!-- ABOUT MAIN --> */}
 
@@ -82,24 +50,7 @@ const About = () => {
         </div>
       </main>
 
-      {/* <!-- ABOUT FOOTER --> */}
-      {/* <footer class="vertical">
-        <div class="social-icons">
-          <a href="#">
-            <i class="fab fa-twitter fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-        </div>
-        <div class="copyright">&copy; Copyright 2023</div>
-      </footer> */}
+   </div>
     </>
   );
 };

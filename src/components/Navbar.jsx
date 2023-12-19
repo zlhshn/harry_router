@@ -1,29 +1,29 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return(
     <nav className="nav">
     <ul className="nav__list">
       <li className="nav__item">
-        <Link to="/" className="nav__link nav__link--active" >
+        <NavLink to="/" className="nav__link " >
         Home
-        </Link>
+        </NavLink>
       </li>
       <li className="nav__item">
-        <Link to="/about" className="nav__link" >
+        <NavLink to="/about" className="nav__link" >
         About Me
-        </Link>
+        </NavLink>
       </li>
       <li className="nav__item">
-        <Link to="/project" className="nav__link" >
+        <NavLink to="/project" className="nav__link" >
         My Projects
-        </Link>
+        </NavLink>
       </li>
       <li className="nav__item">
-        <Link to="/contact" className="nav__link" >
+        <NavLink to="/contact" className="nav__link" >
         Contact
-        </Link>
+        </NavLink>
       </li>
     </ul>
   </nav>
