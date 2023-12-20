@@ -12,12 +12,12 @@ const Navbar = () => {
       </li>
       <li className="nav__item">
         <NavLink to="/about" className="nav__link" >
-        About Me
+        About
         </NavLink>
       </li>
       <li className="nav__item">
         <NavLink to="/project" className="nav__link" >
-        My Projects
+        Film Series
         </NavLink>
       </li>
       <li className="nav__item">

@@ -8,11 +8,11 @@ const Contact = () => {
 
         {/* <!-- CONTACT MAIN --> */}
         <main className="contact">
-  <h2>Contact Me ...</h2>
+  <h2>Contact ...</h2>
   <div className="contact__list">
     <div className="contact__item">
       <i className="fas fa-envelope" /> Email
-      <div className="text-secondary">haryy@nevermoreacademy.edu</div>
+      <div className="text-secondary">haryy@hogwarts.com</div>
     </div>
     <div className="contact__item">
       <i className="fas fa-mobile-alt" /> Phone
@@ -21,7 +21,7 @@ const Contact = () => {
     <div className="contact__item">
       <i className="fas fa-map-marker-alt" /> Address
       <div className="text-secondary">
-        Strada Zamorei 1, Bușteni 105500, Romania
+      Warner Bros. Studio Tour London
       </div>
     </div>
   </div>
