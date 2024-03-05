@@ -8,6 +8,7 @@ A simple project I made to study the structure of the react router. I also used 
 ## Tech/framework used
 🧙‍♂️ React <br>
 🧙‍♂️ React - Router <br>
+🧙‍♂️ React - Hooks  <br>
 🧙‍♂️ React - İcons <br>
 🧙‍♂️ Sass / Scss <br>
 
